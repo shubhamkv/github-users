@@ -17,7 +17,7 @@ const Login = () => {
           color: "hsl(185, 84%, 25%)",
         }}
       >
-        <h1>gitpedia </h1>
+        <h1>Mentor Cruise </h1>
       </nav>
       <br />
       <div
@@ -29,13 +29,12 @@ const Login = () => {
       >
         <div>
           <h2>
-            Search <span style={{ color: "hsl(185, 77%, 34%)" }}>github</span>{" "}
-            users
+            Search Your <span style={{ color: "hsl(185, 77%, 34%)" }}>Tech</span>{" "}
+            Mentor
           </h2>
           <br />
           <h4>
-            register to know the statistics of your favourite developer and top
-            contributor across the world
+            Struggling to mastering any Tech Stack on your own? Get mentored by industry-leading experts to mentor you towards your Full Stack skill goals.
           </h4>
           <br />
           <button className="btn" onClick={loginWithRedirect}>
