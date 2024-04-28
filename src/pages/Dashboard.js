@@ -2,6 +2,7 @@ import React from "react";
 import { Info, Repos, User, Search, Navbar } from "../components";
 import loadingImage from "../images/preloader.gif";
 import { GithubContext } from "../context/context";
+import SearchMentor from "../components/SearchMentor";
 const Dashboard = () => {
   const { isLoading } = React.useContext(GithubContext);
   if (isLoading) {
@@ -16,6 +17,7 @@ const Dashboard = () => {
   return (
     <main>
       <Navbar></Navbar>
+      <SearchMentor />
       <Search />
       <Info />
       <User />
